@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI;
+
+}
+
+#header {
+    background-color: red;
+}
+
+#header h5 {
+    padding: 10px;
+    color: #fff;
+}
+
+nav {
+    margin-top: -10px;
+    border-bottom: 2px solid red;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #000;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#banner {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+}
+
+#banner h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+#banner h3 {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+#banner p {
+    width: 50%;
+    color: #fff;
+    padding-top: 40px;
+}
+
+#banner button {
+    padding: 15px;
+    color: #fff;
+    background-color: red;
+    border: 2px solid #fff;
+}
+
+#login {
+    width: 450px;
+    height: 60vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#login h4 {
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    background-color: red;
+}
+
+#login .log {
+    padding: 20px;
+}
+
+#login input {
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+#login input:hover {
+    border-color: red;
+    transition: 0.5s;
+}
+
+#login button {
+    width: 100%;
+}
